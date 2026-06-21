@@ -46,6 +46,25 @@ The project is built using a modern, reactive web stack:
 
 ## 🏁 Getting Started
 
+### 1. Backend Setup (Convex)
+This project uses [Convex](https://convex.dev) as its reactive backend. To set up the backend:
+
+1. Install the Convex CLI:
+   ```bash
+   npm install -g convex
+   ```
+2. Initialize Convex in your project:
+   ```bash
+   npx convex dev
+   ```
+   *Follow the prompts to log in and create a new project.*
+
+3. (Optional) If you are contributing to the project and want to use Convex AI agent skills:
+   ```bash
+   npx convex ai-files install
+   ```
+
+### 2. Frontend Setup
 First, run the development server:
 
 ```bash
